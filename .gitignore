@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Config
+config/database.php
+config/constants.php
+
+# Upload & Temp
+uploads/
+temp/
+cache/
+.cache/
+
+# Dependencies
+vendor/
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+dist/
+build/
